@@ -1,0 +1,367 @@
+.flex-showcase{
+    justify-content: space-between;
+}
+
+/* navbar */
+nav{
+    background: linear-gradient(90deg, var(--purple-color), var(--pink-color), var(--red-color));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    
+}
+
+nav .flex-showcase{
+    align-items: center;
+}
+
+.logo , .nav-item a{
+    color: var(--white-color);
+}
+
+.nav-item{
+    padding-right: 15px;
+}
+
+
+.nav-item{
+    padding-right: 15px;
+}
+
+.nav-item a:hover{
+    border-bottom: 3px var(--white-color) solid;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .9px;
+}
+
+.logo h5{
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+.flex-nav{
+    padding: 15px;
+}
+
+/* top-section */
+
+.top-section {
+    background: linear-gradient(90deg,var(--purple-color), var(--pink-color), var(--red-color));
+    padding: 120px 0 50px;
+}
+
+.top-section .flex{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.top-text h1{
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    color: var(--white-color);
+    flex: 1;
+}
+
+.top-text p{
+    color: #ccc;
+    font-size: 1.4rem;
+}
+
+.card{
+    background-color:var(--white-color);
+    border-radius: 20px;
+    padding: 15px 25px;
+    width: 300px;
+    margin-left: auto;
+    
+}
+
+.card h4{
+    font-family:'Open Sans', sans-serif ;
+}
+
+.top-card{
+    flex: 1;
+}
+
+.top-card p{
+    font-size: 13px;
+    color: var(--light-color);
+    margin-bottom: 20px;
+}
+
+.top-card form .form-inp{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-inp input{
+    width: 90%;
+    height: 25px;
+    border: none;
+    border-bottom: 2px #ccc solid;
+}
+
+input:focus,input:active{
+    outline: none;
+}
+
+/* features */
+
+.feature{
+    background-color: var(--dark-color);
+    overflow: auto;
+    color: var(--white-color);
+}
+
+.feature h2{
+    letter-spacing: 2.5px;
+    margin: 30px 0;
+    color: var(--pink-color);
+    font-size: 3.5rem;
+}
+
+.feature h4{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--light-color);
+    font-weight: 1000;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.feature .flex{
+    justify-content: space-between;
+}
+
+.feature i{
+    color: var(--white-color);
+    padding-top: 20px;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.feature .flex .feature-item{
+    
+    padding: 15px 0;
+    margin: 15px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+/* about */
+
+.about{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.about h2{
+    color: var(--pink-color);
+    font-size: 3.5rem;
+    letter-spacing: 2.5px;
+}
+
+.about .about-text{
+    font-size: 1.4rem;
+}
+
+.about button, .artists .button-div button{
+    background-color: var(--dark-color);
+    border: 3px var(--pink-color) solid;
+    padding: 13px 35px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    color: var(--pink-color);
+}
+
+.about button:hover, .artists .button-div button:hover{
+    background-color: var(--pink-color);
+    color: var(--white-color);
+}
+
+
+/* pricing */
+
+.pricing{
+    background: linear-gradient(90deg,var(--purple-color), var(--pink-color), var(--red-color));
+    padding: 20px 0;
+    margin: 35px 0;
+    padding-bottom: 100px;
+    color: var(--pink-color);
+    font-weight: 1000;
+}
+
+.pricing h2{
+    letter-spacing: 2.5px;
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+
+.pricing .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.pricing .grid .pricing-item{
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-item .circle{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    display: grid;
+    place-items: center;
+}
+
+.pricing-item p{
+    color: var(--light-color);
+}
+
+.pricing-item .circle h4{
+    margin:0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.pricing-item button:hover{
+    background-color: #aa0748;
+}
+
+/* artist */
+
+.artists h2{
+    color: var(--pink-color);
+    letter-spacing: 2.5px;
+    font-size: 3rem;
+}
+
+.img-flex{
+    display: flex;
+    flex: 1;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.artist-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    color: var(--white-color);
+}
+
+.artist-flex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artists button{
+    padding: 13px 20px;
+    width: 11rem;
+    
+}
+
+.artists .button-div{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+/* footer */
+
+footer{
+    background: linear-gradient(90deg,var(--purple-color), var(--pink-color), var(--red-color));
+    margin-top: 3rem;
+    color: var(--white-color);
+    padding: 40px 0;
+}
+
+footer .footext, .footer-end{
+    flex: 1;
+}
+
+.footext h2{
+    margin: 0;
+    padding: 0;
+}
+
+footer .conatiner.flex{
+    align-items: flex-start;
+}
+
+.foot-flex{
+    align-items: flex-start;
+}
+
+footer i{
+    font-size: 2rem;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+}
+
+footer a{
+    justify-self: flex-end;
+    text-align: right;
+}
+
+.footer-end{
+    display: flex;
+    flex-direction: column;
+}
+
+/* media query */
+
+@media screen and (max-width:500px) {
+    .top-section .flex, .about .flex, .feature .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing .grid{
+        grid-template-columns: 1fr;
+    }
+    .pricing-item{
+        width: 60%;
+        margin: auto;
+    }
+    
+    
+    .about-img .img-container{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+    .top-text h1{
+        text-align: center;
+    }
+}
