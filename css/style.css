@@ -130,6 +130,7 @@ input:focus,input:active{
     background-color: var(--dark-color);
     overflow: auto;
     color: var(--white-color);
+    padding-top: 40px;
 }
 
 .feature h2{
