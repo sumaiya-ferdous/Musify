@@ -35,7 +35,7 @@ nav .container{
 }
 
 .nav-item a:hover{
-    border-bottom: 3px var(--white-color) solid;
+    border-bottom: 2px var(--white-color) solid;
 }
 
 h1,h2,h3,h4,h5{
@@ -92,6 +92,8 @@ h1,h2,h3,h4,h5{
 
 .card h4{
     font-family:'Open Sans', sans-serif ;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
 }
 
 .top-card{
@@ -99,7 +101,7 @@ h1,h2,h3,h4,h5{
 }
 
 .top-card p{
-    font-size: 13px;
+    font-size: 15px;
     color: var(--light-color);
     margin-bottom: 20px;
 }
@@ -110,6 +112,7 @@ h1,h2,h3,h4,h5{
 }
 
 .form-inp input{
+    font-size: 16px;
     width: 90%;
     height: 25px;
     border: none;
@@ -150,7 +153,6 @@ input:focus,input:active{
 
 .feature i{
     color: var(--white-color);
-    padding-top: 20px;
     font-size: 2rem;
     display: grid;
     place-items: center;
@@ -161,6 +163,8 @@ input:focus,input:active{
     padding: 15px 0;
     margin: 15px;
     border-radius: 10px;
+    display: grid;
+    place-items: center;
     
 }
 
@@ -229,9 +233,9 @@ input:focus,input:active{
     align-items: center;
 }
 
-.pricing-item .circle{
-    height: 3rem;
-    width: 3rem;
+.circle{
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     background-color: var(--pink-color);
     color: var(--white-color);
@@ -347,6 +351,11 @@ footer a{
 /* media query */
 
 @media screen and (max-width:500px) {
+
+    nav .flex-showcase{
+        flex-direction: column;
+    }
+
     .top-section .flex, .about .flex, .feature .flex{
         flex-direction: column;
         align-items: center;
@@ -367,8 +376,15 @@ footer a{
 
     .card{
         margin-top: 20px;
+        width: 250px;
+        font-size: 1rem;
     }
+
+
     .top-text h1{
+        text-align: center;
+    }
+    .top-text p{
         text-align: center;
     }
 }
