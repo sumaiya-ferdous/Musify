@@ -387,4 +387,12 @@ footer a{
     .top-text p{
         text-align: center;
     }
+
+    footer  i{
+        font-size: 1.5rem;
+    }
+
+    .social-media{
+        width: 90%;
+    }
 }
