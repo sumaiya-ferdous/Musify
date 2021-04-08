@@ -25,6 +25,8 @@ body{
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -38,6 +40,10 @@ a{
 }
 button{
     cursor: pointer;
+}
+
+button:active, button:focus{
+    outline: none;
 }
 
 .top-card .pink-button, .pink-button{

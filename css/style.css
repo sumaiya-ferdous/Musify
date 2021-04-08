@@ -9,11 +9,16 @@ nav{
     top: 0;
     width: 100%;
     left: 0;
-    
+    height: 70px;
 }
 
 nav .flex-showcase{
     align-items: center;
+    height: 100%;
+}
+
+nav .container{
+    height: 100%;
 }
 
 .logo , .nav-item a{
@@ -42,6 +47,7 @@ h1,h2,h3,h4,h5{
     letter-spacing: 2px;
     font-size: 20px;
     padding-left: 15px;
+    margin: 0;
 }
 
 
@@ -108,6 +114,7 @@ h1,h2,h3,h4,h5{
     height: 25px;
     border: none;
     border-bottom: 2px #ccc solid;
+    background-color: transparent;
 }
 
 input:focus,input:active{
@@ -154,7 +161,7 @@ input:focus,input:active{
     padding: 15px 0;
     margin: 15px;
     border-radius: 10px;
-    height: 200px;
+    
 }
 
 /* about */
