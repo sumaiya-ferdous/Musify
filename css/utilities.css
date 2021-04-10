@@ -1,7 +1,7 @@
 :root{
-    --red-color: #DE3522;
+    --red-color: #ff1d54;
     --pink-color:#CF2F6E;
-    --purple-color:#B524FD;
+    --purple-color:#9a00ff;
     --light-color:#929292;
     --white-color:#f7f7f7;
     --dark-color:#211f1f;
@@ -39,7 +39,7 @@ a{
     display: flex;
     align-items: center;
 }
-button{
+button,i{
     cursor: pointer;
 }
 
@@ -63,13 +63,13 @@ button:active, button:focus{
 .flex-1{
     flex: 1;
 }
+
 .img-container{
     width: 100%;
     overflow: hidden;
-    text-align: right;
 }
 .img-container img{
     width: 70%;
-    text-align: right;
+   
 }
 

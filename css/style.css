@@ -34,6 +34,10 @@ nav .container{
     padding-right: 15px;
 }
 
+.nav-item a{
+    transition: border 0.5s;
+}
+
 .nav-item a:hover{
     border-bottom: 2px var(--white-color) solid;
 }
@@ -68,7 +72,7 @@ h1,h2,h3,h4,h5{
 }
 
 .top-text h1{
-    font-size: 5rem;
+    font-size: 7rem;
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
@@ -186,6 +190,10 @@ input:focus,input:active{
     font-size: 1.4rem;
 }
 
+.about .img-container {
+    text-align: right;
+}
+
 .about button, .artists .button-div button{
     background-color: var(--dark-color);
     border: 3px var(--pink-color) solid;
@@ -200,6 +208,13 @@ input:focus,input:active{
     color: var(--white-color);
 }
 
+.girls{
+    text-align: left!important;
+}
+.girls img{
+    width: 90%;
+    
+}
 
 /* pricing */
 
@@ -234,6 +249,15 @@ input:focus,input:active{
     align-items: center;
 }
 
+.pricing-item h3{
+    font-size: 1.5rem;
+}
+
+.pricing-item i{
+    margin-right: 5px;
+}
+
+
 .circle{
     height: 4rem;
     width: 4rem;
@@ -252,6 +276,14 @@ input:focus,input:active{
     margin:0;
     padding: 0;
     font-size: 1.2rem;
+    
+}
+
+.pricing-item button{
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    border-radius: 30px;
 }
 
 .pricing-item button:hover{
@@ -305,6 +337,22 @@ input:focus,input:active{
     place-items: center;
 }
 
+/* download */
+
+.download h2{
+    color: var(--pink-color);
+    font-size: 3rem;
+}
+
+.download p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.download-now .img-container{
+    width: 6rem ;
+}
+
 /* footer */
 
 footer{
@@ -336,6 +384,7 @@ footer i{
 
 }
 
+
 .social-media{
     display: flex;
     justify-content: space-between;
@@ -354,6 +403,9 @@ footer a{
     flex-direction: column;
 }
 
+footer .social{
+    color: var(--white-color);
+}
 /* media query */
 
 @media screen and (max-width:500px) {
@@ -400,5 +452,15 @@ footer a{
 
     .social-media{
         width: 90%;
+    }
+
+    .download .flex{
+        flex-direction: column;
+    }
+    .download *{
+        text-align: center;
+    }
+    .download-now .flex{
+        flex-direction: row;
     }
 }
