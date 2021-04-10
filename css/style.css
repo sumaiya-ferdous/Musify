@@ -351,6 +351,7 @@ input:focus,input:active{
 
 .download-now .img-container{
     width: 6rem ;
+    cursor: pointer;
 }
 
 /* footer */
