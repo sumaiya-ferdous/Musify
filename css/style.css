@@ -410,7 +410,9 @@ footer .social{
 /* media query */
 
 @media screen and (max-width:500px) {
-
+    nav{
+        padding: 10px 0;
+    }
     nav .flex-showcase{
         flex-direction: column;
     }
@@ -463,5 +465,23 @@ footer .social{
     }
     .download-now .flex{
         flex-direction: row;
+    }
+    .boy-img{
+        order: 2;
+    }
+    .boy-text{
+        order: 1;
+    }
+    .about *{
+        text-align: center;
+    }
+
+    .about button, .artists .button-div button{
+        background-color: var(--dark-color);
+        border: 3px var(--pink-color) solid;
+        padding: 10px 25px;
+        font-size: 1rem;
+        border-radius: 30px;
+        color: var(--pink-color);
     }
 }
